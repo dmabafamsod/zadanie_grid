@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+  
+}
+.kontener {
+    background-color: blue;
+    padding: 10px;
+    /* border: 1px solid red;  */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 720px;
+    height: 480px;
+    column-gap: 10px;
+    row-gap: 10px;
+    max-width: 100%;
+    height: auto;
+    color: aliceblue;    
+}
+
+.box {
+       
+    /* border: 1px solid black;*/ 
+    background-color: blue;
+    color: aliceblue; 
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url("moose1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+.box1 h4 {
+    align-self: flex-end;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
